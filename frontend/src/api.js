@@ -1,3 +1,3 @@
 import axios from "axios";
-const api = axios.create({ baseURL: "http://localhost:5000/api", timeout: 5000 });
+const api = axios.create({ baseURL: "https://student-register-api.onrender.com/api", timeout: 5000 });
 export default api;
