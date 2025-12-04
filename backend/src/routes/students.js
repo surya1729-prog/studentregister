@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const ctrl = require('../controllers/studentCtrl');
+const ctrl = require('../controllers/studentctrl');
 
 // GET all students
 router.get('/', ctrl.getStudents);
